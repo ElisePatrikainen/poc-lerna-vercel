@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init vue@latest
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\elise\bin;C:\Python39\Scripts;C:\Python39;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\Symfony;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Ruby26-x64\bin;C:\Users\elise\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\elise\AppData\Local\Programs\Python\Python37;C:\Users\elise\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Nmap;C:\Users\elise\AppData\Roaming\Composer\vendor\bin;C:\Users\elise\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\elise\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files (x86)\apache-maven-3.6.3\bin;C:\Users\elise\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:910:16)
+      at ReadStream.onkeypress (readline.js:235:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1179:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:290:12)
+
+npm manifest: 
+  {
+    "name": "lib",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "ElisePatrikainen <elise.patrikainen@gmail.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "lib/lib.js",
+    "directories": {
+      "lib": "lib",
+      "test": "__tests__"
+    },
+    "files": [
+      "lib"
+    ],
+    "scripts": {
+      "test": "echo \"Error: run tests from root\" && exit 1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
